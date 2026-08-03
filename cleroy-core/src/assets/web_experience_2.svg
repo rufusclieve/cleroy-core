@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Premium matte black canvas -->
+  <rect width="100%" height="100%" fill="#0c0d0f" />
+  
+  <!-- Subtle technical grid -->
+  <defs>
+    <pattern id="saas-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="0.8" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#saas-grid)" />
+
+  <!-- Ambient background glow behind the cube -->
+  <circle cx="680" cy="220" r="180" fill="rgba(139, 92, 246, 0.12)" filter="blur(60px)" />
+  <circle cx="650" cy="250" r="150" fill="rgba(212, 90, 18, 0.14)" filter="blur(50px)" />
+
+  <!-- Top-left tag / logo -->
+  <rect x="40" y="40" width="54" height="22" rx="4" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+  <text x="67" y="55" font-family="sans-serif" font-weight="bold" font-size="9" fill="#ffffff" text-anchor="middle" letter-spacing="1">B2B</text>
+
+  <!-- Navigation items -->
+  <text x="120" y="54" font-family="monospace" font-size="10" fill="rgba(255, 255, 255, 0.4)" letter-spacing="1">System</text>
+  <text x="190" y="54" font-family="monospace" font-size="10" fill="rgba(255, 255, 255, 0.4)" letter-spacing="1">API.v2</text>
+  <text x="260" y="54" font-family="monospace" font-size="10" fill="rgba(255, 255, 255, 0.4)" letter-spacing="1">Docs</text>
+
+  <!-- Window controls top right -->
+  <circle cx="730" cy="51" r="4" fill="rgba(255, 255, 255, 0.15)" />
+  <circle cx="745" cy="51" r="4" fill="rgba(255, 255, 255, 0.15)" />
+  <circle cx="760" cy="51" r="4" fill="rgba(255, 255, 255, 0.15)" />
+
+  <!-- Horizontal Divider Line -->
+  <line x1="40" y1="80" x2="760" y2="80" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1" />
+
+  <!-- MAIN LARGE HERO TYPOGRAPHY -->
+  <text x="40" y="190" font-family="sans-serif" font-weight="900" font-size="105" fill="#ffffff" letter-spacing="-3">SaaS</text>
+  <text x="40" y="295" font-family="sans-serif" font-weight="900" font-size="105" fill="#ffffff" letter-spacing="-3">Platform</text>
+
+  <!-- SUB TITLE / FOOTER HERO TITLE -->
+  <text x="40" y="500" font-family="sans-serif" font-weight="800" font-size="44" fill="#ffffff" letter-spacing="-1">Hero</text>
+  <text x="40" y="545" font-family="sans-serif" font-weight="800" font-size="44" fill="#ffffff" letter-spacing="-1">Section</text>
+
+  <!-- Technical API pill indicators in center -->
+  <g transform="translate(420, 120)">
+    <rect width="130" height="34" rx="6" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+    <circle cx="20" cy="17" r="5" fill="#10B981" />
+    <text x="35" y="21" font-family="monospace" font-weight="bold" font-size="11" fill="rgba(255, 255, 255, 0.8)">API: Connected</text>
+  </g>
+  
+  <g transform="translate(420, 165)">
+    <rect width="130" height="34" rx="6" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+    <circle cx="20" cy="17" r="5" fill="#6366F1" />
+    <text x="35" y="21" font-family="monospace" font-weight="bold" font-size="11" fill="rgba(255, 255, 255, 0.8)">Latency: 12ms</text>
+  </g>
+
+  <!-- Technical description block -->
+  <g transform="translate(420, 320)">
+    <text x="0" y="0" font-family="sans-serif" font-size="11" fill="rgba(255, 255, 255, 0.4)" font-weight="bold" letter-spacing="1">TECH EDITION // 2026</text>
+    <text x="0" y="20" font-family="sans-serif" font-size="12" fill="rgba(255, 255, 255, 0.6)" line-height="1.5">
+      <tspan x="0" dy="0">Experimental cloud architectures designed</tspan>
+      <tspan x="0" dy="18">for ultra-high throughput applications.</tspan>
+      <tspan x="0" dy="18">Complete with real-time analytics stream</tspan>
+      <tspan x="0" dy="18">and automated database optimization.</tspan>
+    </text>
+  </g>
+
+  <!-- GLOWING 3D WIREFRAME CUBE (Right side) -->
+  <g transform="translate(620, 240)">
+    <!-- Base 3D isometric projection lines -->
+    <!-- Front Left Face -->
+    <polygon points="0,0 -80,-45 -80,55 0,100" fill="rgba(212, 90, 18, 0.08)" stroke="url(#orange-grad)" stroke-width="1.8" />
+    <!-- Front Right Face -->
+    <polygon points="0,0 80,-45 80,55 0,100" fill="rgba(139, 92, 246, 0.08)" stroke="url(#violet-grad)" stroke-width="1.8" />
+    <!-- Top Face -->
+    <polygon points="0,0 -80,-45 0,-90 80,-45" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1.5" />
+
+    <!-- Inner Cube (Core Glow) -->
+    <polygon points="0,15 -40,-10 -40,40 0,65" fill="none" stroke="rgba(212, 90, 18, 0.4)" stroke-width="1" />
+    <polygon points="0,15 40,-10 40,40 0,65" fill="none" stroke="rgba(139, 92, 246, 0.4)" stroke-width="1" />
+    <polygon points="0,15 -40,-10 0,-35 40,-10" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+
+    <!-- Cube vertices sparkles -->
+    <circle cx="0" cy="-90" r="3" fill="#ffffff" />
+    <circle cx="-80" cy="-45" r="2" fill="#FFA366" />
+    <circle cx="80" cy="-45" r="2" fill="#C084FC" />
+    <circle cx="0" cy="0" r="3" fill="#ffffff" />
+    <circle cx="-80" cy="55" r="2" fill="#FFA366" />
+    <circle cx="80" cy="55" r="2" fill="#C084FC" />
+    <circle cx="0" cy="100" r="4" fill="#ffffff" />
+  </g>
+
+  <!-- Gradients definitions for the cube -->
+  <defs>
+    <linearGradient id="orange-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00" />
+      <stop offset="100%" stop-color="#D45A12" />
+    </linearGradient>
+    <linearGradient id="violet-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Vector Sine Wave (Visualizer) in bottom right corner -->
+  <path d="M 420 540 Q 460 500 500 540 T 580 540 T 660 540 T 740 540" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.5" />
+  <path d="M 420 540 Q 460 480 500 540 T 580 540 T 660 540 T 740 540" fill="none" stroke="rgba(212, 90, 18, 0.2)" stroke-width="1" />
+</svg>
