@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Deep dark luxury background -->
+  <rect width="100%" height="100%" fill="#0a0a0c" />
+  
+  <!-- Subtle background grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Subtle starfield atmospheric glow -->
+  <circle cx="500" cy="300" r="250" fill="rgba(212, 90, 18, 0.08)" filter="blur(80px)" />
+  <circle cx="200" cy="200" r="180" fill="rgba(255, 159, 85, 0.04)" filter="blur(60px)" />
+
+  <!-- Header Section -->
+  <text x="40" y="50" font-family="monospace" font-size="12" fill="rgba(255, 255, 255, 0.4)" letter-spacing="2">PROJECT_01 // ACTIVE</text>
+  
+  <!-- "join waitlist" top right button -->
+  <g transform="translate(640, 35)">
+    <rect width="120" height="32" rx="16" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <text x="60" y="20" font-family="monospace" font-size="10" fill="#ffffff" text-anchor="middle" letter-spacing="1">join waitlist →</text>
+  </g>
+
+  <!-- Centered metadata -->
+  <g transform="translate(400, 330)">
+    <text x="0" y="0" font-family="monospace" font-size="14" fill="rgba(255, 255, 255, 0.35)" text-anchor="middle" letter-spacing="4">informationOS v0.1</text>
+    <text x="0" y="22" font-family="monospace" font-size="10" fill="rgba(255, 255, 255, 0.2)" text-anchor="middle" letter-spacing="2">by GalaxyBrain</text>
+  </g>
+
+  <!-- Vector representation of the wireframe red/orange hand reaching from left -->
+  <!-- Hand Wrist and Arm -->
+  <path d="M -50 100 L 150 180 L 180 230 L 220 230 L 260 210 L 250 170 L 130 110 L -50 60 Z" fill="none" stroke="rgba(212, 90, 18, 0.15)" stroke-width="1.5" />
+  
+  <!-- Wiremesh cross lines on arm -->
+  <path d="M 0 75 L 40 140 M 50 85 L 90 155 M 100 95 L 140 175 M 150 120 L 180 215" stroke="rgba(212, 90, 18, 0.2)" stroke-width="1" />
+  <path d="M -50 80 C 50 110 100 130 200 180" fill="none" stroke="rgba(212, 90, 18, 0.25)" stroke-width="1" />
+  <path d="M -50 70 C 40 95 90 115 180 150" fill="none" stroke="rgba(212, 90, 18, 0.25)" stroke-width="1" />
+
+  <!-- Hand Metacarpal wireframe mesh -->
+  <path d="M 220 230 L 320 250 L 350 240 L 350 180 L 260 150 L 250 170" fill="none" stroke="rgba(212, 90, 18, 0.35)" stroke-width="1.5" />
+  <path d="M 260 150 L 330 150 L 370 170 L 350 240" fill="none" stroke="rgba(212, 90, 18, 0.35)" stroke-width="1.5" />
+  
+  <!-- Fingers mesh -->
+  <!-- Reaching Index Finger pointing toward play button -->
+  <path d="M 330 150 L 410 130 L 460 125 L 500 135 L 530 155 L 470 180 L 430 185 L 350 180" fill="none" stroke="rgba(212, 90, 18, 0.45)" stroke-width="1.5" />
+  <!-- Wireframe grid on pointing finger -->
+  <path d="M 370 140 L 380 183 M 410 130 L 425 185 M 450 127 L 460 182 M 490 132 L 485 175" stroke="rgba(212, 90, 18, 0.4)" stroke-width="1" />
+  <path d="M 330 150 C 400 145 450 145 530 155" fill="none" stroke="rgba(255, 110, 20, 0.6)" stroke-width="1.5" />
+
+  <!-- Thumb (curved inward) -->
+  <path d="M 260 210 L 290 270 L 310 310 L 330 320 L 340 310 L 325 280 L 300 240" fill="none" stroke="rgba(212, 90, 18, 0.3)" stroke-width="1.5" />
+  <!-- Other folded fingers -->
+  <path d="M 350 180 L 380 200 L 400 220 L 380 235 L 350 225" fill="none" stroke="rgba(212, 90, 18, 0.35)" stroke-width="1.2" />
+  <path d="M 350 205 L 375 220 L 390 235 L 375 245 L 350 240" fill="none" stroke="rgba(212, 90, 18, 0.3)" stroke-width="1.2" />
+
+  <!-- White glowing play button / target being touched -->
+  <g transform="translate(530, 155)">
+    <!-- Glow backings -->
+    <circle cx="0" cy="0" r="45" fill="rgba(255, 255, 255, 0.06)" filter="blur(15px)" />
+    <circle cx="0" cy="0" r="30" fill="rgba(255, 159, 85, 0.15)" filter="blur(8px)" />
+    
+    <!-- Outer glass ring -->
+    <circle cx="0" cy="0" r="28" fill="none" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="28" fill="rgba(255, 255, 255, 0.05)" />
+    
+    <!-- Inner solid white play button -->
+    <path d="M -6 -10 L 12 0 L -6 10 Z" fill="#ffffff" />
+  </g>
+
+  <!-- Bottom footer -->
+  <text x="400" y="550" font-family="monospace" font-size="9" fill="rgba(255, 255, 255, 0.15)" text-anchor="middle" letter-spacing="1">hello@galaxybrain.com  |  copyright GalaxyBrain, Inc 2025</text>
+</svg>
