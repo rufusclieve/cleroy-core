@@ -1,6 +1,0 @@
-{
-  "name": "CLEROY Engineering Core",
-  "description": "The official digital interface of CLEROY Engineering Core, a premium AI-native software engineering agency. Handcrafted, cinematic, and premium digital solutions.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
