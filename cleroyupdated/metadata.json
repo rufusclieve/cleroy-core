@@ -1,6 +1,0 @@
-{
-  "name": "Cleroy",
-  "description": "The official digital interface of Cleroy.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
